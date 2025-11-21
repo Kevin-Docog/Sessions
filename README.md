@@ -12,7 +12,6 @@
    * Click “Start” next to Apache
    * It should turn green to show the server is running
 
----
 
 2. Move the Project to the htdocs folder
    XAMPP serves files from a special folder called htdocs.
@@ -28,7 +27,6 @@ htdocs
   └── userinfo.php
   └── language_selector.php
 
----
 
 3. Open the Project in Your Browser
    Once the folder is in htdocs, open your browser and go to:
@@ -42,6 +40,5 @@ You can open any file the same way:
 
 If your folder name is different, replace “Sessions” with your actual folder name.
 
----
 
 🎉 You're Done!
