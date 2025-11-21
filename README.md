@@ -1,44 +1,70 @@
-📌 Before you begin, you need:
+# 🚀 Running This PHP Project Using XAMPP
 
-1. XAMPP
-
-   Download it from: [https://www.apachefriends.org](https://www.apachefriends.org)
-   Install it and open the XAMPP Control Panel.
+This project contains PHP files such as `login.php`, `userinfo.php`, and `language_selector.php`.
+Follow the steps below to run the project locally using **XAMPP**.
 
 ---
 
-🚀 How to Run the PHP Project Using XAMPP
+## 📌 Before You Begin
 
-1. Start the Apache Server
+### 1. Install XAMPP
 
-   * Open the XAMPP Control Panel
-   * Click “Start” next to Apache
-   * It should turn green to show the server is running
+Download it from:
+[https://www.apachefriends.org](https://www.apachefriends.org)
 
+Install it and open the **XAMPP Control Panel**.
 
-2. Move the Project to the htdocs folder
-   XAMPP serves files from a special folder called htdocs.
+---
 
-Windows location:
+## 🔥 How to Run the PHP Project Using XAMPP
+
+### 1. Start the Apache Server
+
+* Open the **XAMPP Control Panel**
+* Click **Start** next to **Apache**
+* The module should turn green when running
+
+---
+
+### 2. Move the Project to the `htdocs` Folder
+
+XAMPP serves files from a special directory called **htdocs**.
+
+**Windows location:**
+
+```
 C:\xampp\htdocs\
+```
 
-Take the project folder (for example “Sessions”) and move it inside the htdocs folder:
+Copy your project folder (e.g., **Sessions**) into the `htdocs` directory:
 
+```
 htdocs
--Sessions
-    -login.php
-    -userinfo.php
-    -language_selector.php
+└── Sessions
+    ├── login.php
+    ├── userinfo.php
+    └── language_selector.php
+```
 
+---
 
-3. Open the Project in Your Browser
-Once the folder is in htdocs, open your browser and go to:
-[http://localhost/Sessions/login.php](http://localhost/Sessions/login.php)
+### 3. Open the Project in Your Browser
+
+Once the project folder is inside `htdocs`, open your browser and go to:
+
+```
+http://localhost/Sessions/login.php
+```
 
 You can open any file the same way:
-[http://localhost/Sessions/userinfo.php](http://localhost/Sessions/userinfo.php)
-[http://localhost/Sessions/language_selector.php](http://localhost/Sessions/language_selector.php)
 
-If your folder name is different, replace “Sessions” with your actual folder name.
+```
+http://localhost/Sessions/userinfo.php
+http://localhost/Sessions/language_selector.php
+```
 
-🎉 You're Done!
+If your folder name is different, replace **Sessions** with the correct name.
+
+---
+
+## 🎉 You're Done!
