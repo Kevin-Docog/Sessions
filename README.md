@@ -25,10 +25,10 @@ C:\xampp\htdocs\
 Take the project folder (for example “Sessions”) and move it inside the htdocs folder:
 
 htdocs
-└── Sessions
-    └── login.php
-    └── userinfo.php
-    └── language_selector.php
+-Sessions
+    -login.php
+    -userinfo.php
+    -language_selector.php
 
 
 3. Open the Project in Your Browser
